@@ -3,6 +3,7 @@
 ## Overview
 Welcome to the source code of my personal portfolio website! This portfolio showcases my skills, projects, and experience as a React developer with a focus on web development. The Portfolio design is inspired by VsCode default dark theme. Hope you like it!!!
 
+![Portfolio Screenshot](public/portfolio.png)
 ## Features
 - **Responsive Design**: Ensures a seamless experience across various devices and screen sizes.
 - **Interactive UI**: User-friendly interface with smooth navigation.
