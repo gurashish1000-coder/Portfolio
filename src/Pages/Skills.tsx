@@ -4,20 +4,29 @@ import { technologies } from "../components/Data";
 
 export const Skills = () => {
   return (
-    <Box sx={{ maxWidth: 800, margin: "auto", marginTop: 5 }}>
+    <Box
+      sx={{ maxWidth: 800, margin: "auto", marginTop: 5, padding: 3 }}
+      textAlign={"center"}
+    >
       <Box
         sx={{
           display: "flex",
+          justifyContent: "center",
           alignItems: "center",
+          textAlign: "center",
           color: "#CE9178",
         }}
       >
-        <Typography variant="h5">
-          // Few Technologies that I have been working with recently
-        </Typography>
+        <Typography variant="h5">Recent Tech Focus</Typography>
         <OutdoorGrillIcon fontSize="large" />
       </Box>
-      <Grid container spacing={4} padding={5}>
+      <Grid
+        container
+        spacing={4}
+        sx={{
+          margin: "auto",
+        }}
+      >
         {technologies.map((tech, index) => (
           <Grid item xs={12} sm={4} key={index}>
             <Box display="flex" alignItems="center" gap={1}>
