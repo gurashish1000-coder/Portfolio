@@ -8,13 +8,12 @@ import { useNavigate } from "react-router-dom";
 export const FileTree = () => {
   const navigate = useNavigate();
   const pages = [
-    { index: 1, name: "About.tsx", route: "/about" },
+    { index: 1, name: "About.tsx", route: "/" },
     { index: 2, name: "Experience.tsx", route: "/experience" },
     { index: 3, name: "Skills.tsx", route: "/skills" },
   ];
 
-  const [selectedIndex, setSelectedIndex] = useState(null);
-  const [currentComponent, setCurrentComponent] = useState("");
+  const [selectedIndex, setSelectedIndex] = useState(1);
 
   function renderTreeItemBgColor(index: any) {
     return selectedIndex === index ? "rgba(144,202,249,0.16)" : "#252527";

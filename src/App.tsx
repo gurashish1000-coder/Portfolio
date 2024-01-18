@@ -31,7 +31,7 @@ export const App = () => {
         <Router>
           <Layout expanded={expanded} setExpanded={setExpanded}>
             <Routes>
-              <Route path="/about" element={<About />} />
+              <Route path="/" element={<About />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/skills" element={<Skills />} />
             </Routes>
