@@ -3,7 +3,14 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import { IoDocumentAttach } from "react-icons/io5";
-import { FaPython, FaReact, FaNode, FaCloud, FaJava } from "react-icons/fa";
+import {
+  FaPython,
+  FaReact,
+  FaNode,
+  FaCloud,
+  FaJava,
+  FaAws,
+} from "react-icons/fa";
 import {
   BiLogoPostgresql,
   BiLogoMongodb,
@@ -77,5 +84,9 @@ export const technologies = [
   {
     name: "Java Spring Boot",
     icon: <BiLogoSpringBoot color="#CE9178" fontSize={30} />,
+  },
+  {
+    name: "AWS",
+    icon: <FaAws color="#CE9178" fontSize={30} />,
   },
 ];

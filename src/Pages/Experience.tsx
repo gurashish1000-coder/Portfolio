@@ -15,15 +15,26 @@ export const Experience = () => {
   );
 
   return (
-    <Box sx={{ maxWidth: 800, margin: "auto", marginTop: 5 }}>
+    <Box
+      sx={{
+        maxWidth: 800,
+        margin: "auto",
+        marginTop: 5,
+        padding: 5,
+        // "@media (max-width:400px)": {
+        //   // Adjusts padding for screens wider than 600px
+        //   paddingX: 3,
+        // },
+      }}
+    >
       {/* Shoelace Learning Experience */}
-      <Typography variant="h5" style={{ color: "#CE9178" }}>
+      <Typography variant="h6" style={{ color: "#CE9178" }}>
         {" "}
-        // Shoelace Learning (builders of Dreamscape) | Full Stack Developer
+        Shoelace Learning (builders of Dreamscape) | Full Stack Developer
       </Typography>
-      <Typography variant="subtitle1" style={{ color: "#3279CB" }}>
+      <Typography variant="subtitle2" style={{ color: "#3279CB" }}>
         {" "}
-        // April 2021 – September 2022
+        April 2021 – September 2022
       </Typography>
       <List>
         {[
@@ -43,13 +54,13 @@ export const Experience = () => {
       </List>
 
       {/* BrainBox Experience */}
-      <Typography variant="h5" style={{ color: "#CE9178" }}>
+      <Typography variant="h6" style={{ color: "#CE9178" }}>
         {" "}
-        // BrainBox | Frontend Developer
+        BrainBox | Frontend Developer
       </Typography>
-      <Typography variant="subtitle1" style={{ color: "#3279CB" }}>
+      <Typography variant="subtitle2" style={{ color: "#3279CB" }}>
         {" "}
-        // May 2020 – October 2020
+        May 2020 – October 2020
       </Typography>
       <List>
         {[
